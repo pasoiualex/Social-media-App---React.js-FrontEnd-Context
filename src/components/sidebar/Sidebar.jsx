@@ -11,6 +11,7 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Feed</span>
           </li>
           <li className="sidebarListItem">
+            
             <Chat className="sidebarIcon"/>
             <span className="sidebarListItemText">Chats</span>
           </li>

@@ -1,52 +1,52 @@
 export const Users =[
     {
         id:1,
-        profilePicture:"assets/person/1.jpg",
+        profilePicture:"person/1.jpg",
         username: "Pasoiu Alex",
     },
     {
         id:2,
-        profilePicture:"assets/person/2.jpeg",
+        profilePicture:"person/2.jpeg",
         username: "Miruna Serban",
     },
     {
         id:3,
-        profilePicture:"assets/person/3.jpg",
+        profilePicture:"person/3.jpg",
         username: "Mama Tata",
     },
     {
         id:4,
-        profilePicture:"assets/person/4.jpg",
+        profilePicture:"person/4.jpg",
         username: "Dani Mocanu",
     },
     {
         id:5,
-        profilePicture:"assets/person/5.jpg",
+        profilePicture:"person/5.jpg",
         username: "Marcel Pavel",
     },
     {
         id:6,
-        profilePicture:"assets/person/6.jpg",
+        profilePicture:"person/6.jpg",
         username: "Stefan Banica",
     },
     {
         id:7,
-        profilePicture:"assets/person/7.jpg",
+        profilePicture:"person/7.jpg",
         username: "Alex Velea",
     },
     {
         id:8,
-        profilePicture:"assets/person/8.jpg",
+        profilePicture:"person/8.jpg",
         username: "Yomumu",
     },
     {
         id:9,
-        profilePicture:"assets/person/9.jpg",
+        profilePicture:"person/9.jpg",
         username: "Caca",
     },
     {
         id:10,
-        profilePicture:"assets/person/10.jpg",
+        profilePicture:"person/10.jpg",
         username: "Mil Bei",
     },
 ];
@@ -55,7 +55,7 @@ export const Posts=[
     {
         id:1,
         desc: "Habibibi!",
-        photo: "assets/post/1.jpg",
+        photo: "post/1.jpg",
         date:"acum 3 min",
         userId:1,
         like:32,
@@ -64,7 +64,7 @@ export const Posts=[
     {
         id:2,
         desc: "Yeeess!",
-        photo: "assets/post/2.jpg",
+        photo: "post/2.jpg",
         userId:2,
         like:3,
         comment:9,
@@ -72,7 +72,7 @@ export const Posts=[
     {
         id:3,
         desc: "Habibibi!",
-        photo: "assets/post/3.jpg",
+        photo: "post/3.jpg",
         userId:3,
         like:323,
         comment:94,
@@ -80,7 +80,7 @@ export const Posts=[
     {
         id:4,
         desc: "Valoare",
-        photo: "assets/post/4.jpg",
+        photo: "post/4.jpg",
         userId:4,
         like:32,
         comment:9,
@@ -88,7 +88,7 @@ export const Posts=[
     {
         id:5,
         desc: "Like",
-        photo: "assets/post/5.jpg",
+        photo: "post/5.jpg",
         userId:5,
         like:3222,
         comment:91,
@@ -96,7 +96,7 @@ export const Posts=[
     {
         id:6,
         desc: "Oh yez daddy",
-        photo: "assets/post/6.jpg",
+        photo: "post/6.jpg",
         userId:6,
         like:32,
         comment:9,
@@ -104,7 +104,7 @@ export const Posts=[
     {
         id:7,
         desc: "Daca dragostea dispare",
-        photo: "assets/post/7.webp",
+        photo: "post/7.webp",
         userId:7,
         like:655,
         comment:65,
@@ -112,7 +112,7 @@ export const Posts=[
     {
         id:8,
         desc: "sss",
-        photo: "assets/post/8.jpg",
+        photo: "post/8.jpg",
         userId:8,
         like:324,
         comment:2,
@@ -120,7 +120,7 @@ export const Posts=[
     {
         id:9,
         desc: "Hkkkk",
-        photo: "assets/post/9.jpg",
+        photo: "post/9.jpg",
         userId:9,
         like:77,
         comment:9,
@@ -128,7 +128,7 @@ export const Posts=[
     {
         id:10,
         desc: "Habibibi!",
-        photo: "assets/post/10.jpg",
+        photo: "post/10.jpg",
         userId:10,
         like:233,
         comment:9,
