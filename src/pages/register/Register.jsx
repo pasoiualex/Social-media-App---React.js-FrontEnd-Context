@@ -20,8 +20,8 @@ export default function Register() {
           <div className="loginBox">
             <input placeholder="Nume de utilizator" className="loginInput" />
             <input placeholder="Email" className="loginInput" />
-            <input placeholder="Parolă" className="loginInput" />
-            <input placeholder="Repetare parolă" className="loginInput" />
+            <input placeholder="Parolă" type="password" className="loginInput" />
+            <input placeholder="Repetare parolă" type="password" className="loginInput" />
             <button className="loginButton">Autentificare</button>
             <button className="loginRegisterButton">
               Intră in cont
