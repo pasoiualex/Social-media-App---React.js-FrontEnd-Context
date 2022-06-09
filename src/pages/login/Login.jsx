@@ -49,7 +49,7 @@ export default function Login() {
             <button className="loginButton">{isFetching ? "Loading... " : "Log In"}</button>
             <span className="loginForgot">Aţi uitat parola?</span>
             <button className="loginRegisterButton">
-              Create a New Account
+            {isFetching ? "Loading... " : "Create a new account"}
             </button>
           </form>
         </div>
