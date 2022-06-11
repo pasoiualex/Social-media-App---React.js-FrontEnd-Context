@@ -1,5 +1,5 @@
 import "./topbar.css";
-import { Search, Person, Chat, Notifications } from "@mui/icons-material";
+import {  Person, Chat, Notifications } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
@@ -17,8 +17,7 @@ export default function Topbar() {
 
       <div className="topbarCenter">
         <div className="searchbar">
-          <Search className="searchIcon" />
-          <input placeholder="Search people" className="searchInput" />
+          
         </div>
       </div>
 

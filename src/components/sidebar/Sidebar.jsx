@@ -1,7 +1,9 @@
 import "./sidebar.css";
 import { RssFeed,HelpOutline,WorkOutline,Event,School,Bookmark,PlayCircleFilledOutlined,Group,Chat } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
+  
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -11,9 +13,11 @@ export default function Sidebar() {
             <span className="sidebarListItemText">Feed</span>
           </li>
           <li className="sidebarListItem">
-            
+            <Link style={{ textDecoration: "none" }} to="/messenger">
             <Chat className="sidebarIcon"/>
+            
             <span className="sidebarListItemText">Chats</span>
+            </Link>
           </li>
           <li className="sidebarListItem">
             <PlayCircleFilledOutlined className="sidebarIcon"/>
@@ -53,54 +57,7 @@ export default function Sidebar() {
             <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
             <span className="sidebarFriendName">Alex PAsoiu</span>
           </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
-          <li className="sidebarFriend">
-            <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
-            <span className="sidebarFriendName">Alex PAsoiu</span>
-          </li>
+      
           
         </ul>
       </div>
