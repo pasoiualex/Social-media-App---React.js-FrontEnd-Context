@@ -23,24 +23,29 @@ export default function Topbar() {
 
       <div className="topbarRight">
         <div className="topbarLinks">
-          <span className="topbarLink">Homepage</span>
-          
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <span htmlColor="white" className="topbarLink">Homepage</span>
+        </Link>  
+          <Link to="/logout">
           <span className="topbarLink">Log out</span>
           
-          
+          </Link>
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">
             <Person />
-            <span className="topbarIconBadge">1</span>
+            
           </div>
+          <Link style={{ textDecoration: "none"}} to="/messenger">
           <div className="topbarIconItem">
-            <Chat />
-            <span className="topbarIconBadge">2</span>
+            
+            <Chat htmlColor="white" />
+            
           </div>
+          </Link>
           <div className="topbarIconItem">
             <Notifications />
-            <span className="topbarIconBadge">1</span>
+            
           </div>
         </div>
         <Link to =  {`/profile/${user.username}` }>

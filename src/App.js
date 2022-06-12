@@ -11,6 +11,7 @@ import {
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 import Messenger from "./pages/messenger/Messenger";
+import Logout from "./pages/logout/Logout";
 
 function App() {
   const { user } = useContext(AuthContext);
@@ -23,6 +24,9 @@ function App() {
         <Route path="/login">{user ? <Redirect to="/" /> : <Login />}</Route>
         <Route path="/register">
           {user ? <Redirect to="/" /> : <Register />}
+        </Route>
+        <Route path="/logout">
+          { <Logout /> }
         </Route>
         <Route path="/messenger">
           {!user ? <Redirect to="/" /> : <Messenger/>}

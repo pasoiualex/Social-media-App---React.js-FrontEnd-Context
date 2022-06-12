@@ -67,12 +67,12 @@ export default function Post({ post }) {
         </div>
         <div className="postBottom">
           <div className="postBottomLeft">
-            <img src={`${PF}like.png`} alt="" className="likeIcon" onClick={likeHandler} />
+            
             <img src={`${PF}heart.png`}  alt="" className="likeIcon" onClick={likeHandler} />
-            <span className="postLikeCounter">{like} de persoane</span>
+            <span className="postLikeCounter">{like} aprecieri</span>
           </div>
           <div className="postBottomRight">
-            <span className="postCommentText">{post.comment} coemntarii</span>
+            <span className="postCommentText">{post.comment} </span>
           </div>
         </div>
       </div>

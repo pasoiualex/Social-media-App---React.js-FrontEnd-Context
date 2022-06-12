@@ -1,5 +1,5 @@
 import "./share.css";
-import { PermMedia, Label, Room, EmojiEmotions, Cancel } from "@mui/icons-material";
+import { PermMedia,  Cancel } from "@mui/icons-material";
 import { useContext, useRef, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import axios from "axios";
@@ -60,7 +60,7 @@ export default function Share() {
           <div className="shareOptions">
             <label htmlFor="file" className="shareOption">
               <PermMedia htmlColor="tomato" className="shareIcon" />
-              <span className="shareOptionText">Poze si video</span>
+              <span className="shareOptionText">Incarca o forografie</span>
               <input
                 style={{display:"none"}}
                 type="file"
@@ -71,26 +71,7 @@ export default function Share() {
             </label>
           </div>
 
-          <div className="shareOptions">
-            <div className="shareOption">
-              <Label htmlColor="blue" className="shareIcon" />
-              <span className="shareOptionText">Tag</span>
-            </div>
-          </div>
-
-          <div className="shareOptions">
-            <div className="shareOption">
-              <Room htmlColor="green" className="shareIcon" />
-              <span className="shareOptionText">Locatie</span>
-            </div>
-          </div>
-
-          <div className="shareOptions">
-            <div className="shareOption">
-              <EmojiEmotions className="shareIcon" />
-              <span className="shareOptionText">Cum te simti?</span>
-            </div>
-          </div>
+        
           <button className="shareBotton" type="submit">Share</button>
         </form>
       </div>

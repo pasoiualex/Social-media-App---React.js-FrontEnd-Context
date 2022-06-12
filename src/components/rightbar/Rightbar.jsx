@@ -1,5 +1,5 @@
 import "./rightbar.css";
-import { Users } from "../../date";
+
 import Online from "../online/Online";
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
@@ -55,12 +55,10 @@ export default function Rightbar({ user }) {
             astazi !
           </span>
         </div>
-        <img src="/assets/Ad.jpeg" alt="" className="rightbarAd" />
-        <h4 className="rightbarTitle">Online Friends</h4>
+        <img src="/assets/ulbs.png" alt="" className="rightbarAd" />
+        <h4 className="rightbarTitle">Prietenii tai :</h4>
         <ul className="rightbarFriendList">
-          {Users.map((u) => (
-            <Online key={u.id} user={u} />
-          ))}
+          <Online />
         </ul>
       </>
     );

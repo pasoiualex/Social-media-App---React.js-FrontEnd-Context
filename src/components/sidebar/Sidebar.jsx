@@ -9,14 +9,16 @@ export default function Sidebar() {
       <div className="sidebarWrapper">
         <ul className="sidebarList">
           <li className="sidebarListItem">
-            <RssFeed className="sidebarIcon"/>
-            <span className="sidebarListItemText">Feed</span>
+          <Link style={{ textDecoration: "none" }} to="/">
+            <RssFeed htmlColor="black"  className="sidebarIcon"/>
+            <span htmlColor="black" className="sidebarListItemText">Feed</span>
+            </Link>
           </li>
           <li className="sidebarListItem">
             <Link style={{ textDecoration: "none" }} to="/messenger">
-            <Chat className="sidebarIcon"/>
+            <Chat htmlColor="black" className="sidebarIcon"/>
             
-            <span className="sidebarListItemText">Chats</span>
+            <span htmlColor="black" className="sidebarListItemText">Chats</span>
             </Link>
           </li>
           <li className="sidebarListItem">
