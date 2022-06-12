@@ -12,6 +12,7 @@ export default function Messenger() {
   const [currentChat, setCurrentChat] = useState(null);
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
+  const [friends]=useState([]);
   
 
   const { user } = useContext(AuthContext);
@@ -100,7 +101,10 @@ export default function Messenger() {
         </div>
         <div className="chatOnline">
           <div className="chatOnlineWrapper">
-            <ChatOnline />
+            <ChatOnline 
+              friends={friends}
+              currentId={user._id}
+              setCurrentChat={setCurrentChat} />
           </div>
         </div>
       </div>
