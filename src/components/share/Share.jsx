@@ -72,7 +72,7 @@ export default function Share() {
           </div>
 
         
-          <button className="shareBotton" type="submit">Share</button>
+          <button className="shareBotton" type="submit">Distribuie</button>
         </form>
       </div>
     </div>

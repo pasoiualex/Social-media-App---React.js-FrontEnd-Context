@@ -2,6 +2,7 @@ import { useContext, useRef } from "react";
 import "./login.css";
 import { loginCall } from "../../apiCalls";
 import { AuthContext } from "../../context/AuthContext";
+import { Link } from "react-router-dom";
 
 
 export default function Login() {
@@ -35,7 +36,7 @@ export default function Login() {
         <div className="loginRight">
           <form className="loginBox" onSubmit={handleClick}>
             <input
-              placeholder="Email"
+              placeholder="E-mail"
               type="email"
               required
               className="loginInput"
@@ -49,12 +50,14 @@ export default function Login() {
               className="loginInput"
               ref={password}
             />
-            <button className="loginButton">{isFetching ? "Loading... " : "Log In"}</button>
-            <span className="loginForgot">Aţi uitat parola?</span>
+            <button className="loginButton">{isFetching ? "Se încarcă... " : "Intra în cont"}</button>
+            <Link to="/register" className="registerBtn" >
             <button className="loginRegisterButton">
-            {isFetching ? "Loading... " : "Create a new account"}
+             Creează un nou cont
             </button>
+            </Link>
           </form>
+          
         </div>
       </div>
     </div>

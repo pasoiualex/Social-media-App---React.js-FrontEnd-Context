@@ -86,3 +86,6 @@
       font-weight: 500;
       cursor: pointer;
   }
+  .registerBtn{
+    margin-left: 150px;
+  }

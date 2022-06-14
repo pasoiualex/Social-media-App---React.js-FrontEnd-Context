@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   
+   
+
+  
   return (
     <div className="sidebar">
       <div className="sidebarWrapper">
@@ -55,10 +58,13 @@ export default function Sidebar() {
         <hr className="sidebarHr"/>
 
         <ul className="sidebarFriendList">
+          
           <li className="sidebarFriend">
             <img src="/assets/person/1.jpg" alt="" className="sidebarFriendImg" />
             <span className="sidebarFriendName">Alex PAsoiu</span>
           </li>
+          
+        
       
           
         </ul>

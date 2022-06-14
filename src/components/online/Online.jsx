@@ -35,7 +35,7 @@ export default function Online({ userFriends }) {
                       ? PF + friend.profilePicture
                       : PF + "person/noAvatar.jpeg"
                   } alt="" className="rightbarProfileImg" />
-        <span className="rightbarOnline"></span>
+        
       </div>
       <span className="rightbarUsername">{friend.username}</span>
     </li>

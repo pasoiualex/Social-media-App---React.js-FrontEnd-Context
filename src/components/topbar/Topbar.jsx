@@ -24,10 +24,10 @@ export default function Topbar() {
       <div className="topbarRight">
         <div className="topbarLinks">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span htmlColor="white" className="topbarLink">Homepage</span>
+          <span htmlColor="white" className="topbarLink">Acasă</span>
         </Link>  
-          <Link to="/logout">
-          <span className="topbarLink">Log out</span>
+          <Link to="/logout" style={{ textDecoration: "none" }}>
+          <span className="topbarLink">Ieși din cont</span>
           
           </Link>
         </div>

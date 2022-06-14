@@ -69,10 +69,13 @@
   }
   
   .chatMenuInput {
-    width: 90%;
-    padding: 10px 0;
+    
+    
     border: none;
-    border-bottom: 1px solid gray;
+   
+    margin-left: 100 px;
+    font-size: 16x;
+    font-weight: bold;
   }
   
   .chatBox {
@@ -130,7 +133,7 @@
     position: absolute;
     top: 10%;
     font-size: 50px;
-    color: rgb(224, 220, 220);
+    color: rgb(79, 73, 73);
     cursor: default;
   }
   

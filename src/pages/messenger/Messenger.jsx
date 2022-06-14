@@ -65,7 +65,7 @@ export default function Messenger() {
       <div className="messenger">
         <div className="chatMenu">
           <div className="chatMenuWrapper">
-            <input placeholder="Search for friends" className="chatMenuInput" />
+            <span className="chatMenuInput" >Conversațiile tale: </span>
             {conversations.map((c) => (
               <div onClick={() => setCurrentChat(c)}>
                 <Conversation conversation={c} currentUser={user} />
@@ -95,7 +95,7 @@ export default function Messenger() {
                 </div>
               </>
             ) : (
-              <span className="noConversationText">Deschide o conversatie</span>
+              <span className="noConversationText">Deschide o conversație</span>
             )}
           </div>
         </div>

@@ -37,6 +37,7 @@ export default function ChatOnline({userFriends,currentId,setCurrentChat}) {
 
   return (
     <div className="chatOnline">
+      <span className="chatMenuInput" >Prietenii cu care poți incepe o conversație: </span>
         {friends.map((friend)=> (
         <div className="chatOnlineFriend" onClick={() => handleClick(friend)}>
             <div className="chatOnlineImgContainer">
